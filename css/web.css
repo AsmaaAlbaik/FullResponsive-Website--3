@@ -1,0 +1,564 @@
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+ul 
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+/* start navbar section */
+.navbar-default .navbar-brand
+{
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 60px;
+      letter-spacing: 2px
+   
+}
+.navbar-default .navbar-brand:hover
+{
+    color: #1abd9d;  
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px
+
+
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #1abd9d;
+    font-weight: bold
+    
+}
+
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus
+{
+    color: #1abd9d;
+    background: none !important;
+    font-weight: bold
+
+}
+
+/* end navbar section */
+
+/* start header section */
+.header-sec
+{
+/* background: url("../images/header.jpg"); */
+position: relative;
+}
+.header-sec .overlay
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1
+
+}
+
+.header-sec h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 30%;
+    color: #fff;
+    
+
+}
+.header-sec h2 span {
+    color: #1abd9d;
+}
+
+/* end header section  */
+
+/* start out services section   */
+.services {
+    padding: 80px 20px 40px
+}
+
+.services h2 {
+    margin: 0 0 50px;
+    font-weight: normal
+}
+.services .items 
+{
+    margin-bottom: 20px
+}
+
+.services .items i 
+{
+    color: #1abd9d;
+    float:left;
+    width: 17%;
+    margin-right: 8%;
+    margin-top: 10px
+}
+
+.services .items .info
+{
+    float: left;
+    width: 70%;
+}
+.services .items .info h3
+{
+font-weight: normal;
+color: #585353;
+margin-bottom: 10px
+}
+
+.services .items .info p
+{
+ margin-bottom: 30px;
+ color: #888;
+}
+/* end out services section */
+
+/* start our team section */
+
+.team
+{
+    margin: 50px 20px   
+}
+.team .box
+{
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+.team .box .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.7);
+    color: #fff;
+    line-height: 220px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+    animation: overlay 0.65s ;
+
+}
+
+.team .box:hover .overlay
+{
+    display: block
+}
+
+
+@keyframes overlay {
+ 0% {
+   opacity: 0
+ }
+
+ 100% {
+   opacity: 1
+ }
+}
+
+.team h2 
+{
+    margin: 0 0 35px;
+    font-weight: normal
+}
+
+.team p 
+{
+     color: #888;
+     line-height: 1.5;
+     font-size: 15px;
+     text-align: justify;
+     padding-bottom: 20px
+}
+
+
+ .team .box  img 
+{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 1px 10px 10px #ccc; */
+    border: 3px solid #ccc;
+}
+
+/* end our team section */
+
+
+/* start Testimonials section  */
+.testimonials 
+{
+    background: url('../images/test/1.jpg')no-repeat center center fixed;;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.testimonials .t-overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5)
+
+}
+
+.testimonials h2 
+{
+    padding: 40px 0
+}
+.testimonials q
+{
+    line-height: 2;
+    padding: 10px 80px;
+    font-size: 20px
+
+}
+
+.testimonials p
+{
+    margin-top: 80px;
+    color: #1abd9d;
+    font-size: 30px
+
+}
+
+.testimonials .slider > div 
+{
+    display: none
+}
+
+.testimonials .slider .active 
+{
+    display: block
+
+}
+/* end Testimonials section  */
+
+
+/* start portifolio section */
+
+.portifolio 
+{
+padding: 80px 0;
+}
+
+.portifolio h2
+{
+    font-weight: normal;
+}
+.portifolio ul 
+{
+    margin-top: 50px;
+}
+
+.portifolio ul li {
+    display: inline-block;
+    border: 2px solid #AAA;
+    color: #AAA;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px
+
+}
+
+.portifolio ul li.selected
+{
+    color: #fff;
+    background-color: #1abd9d;
+    border: 2px solid #1abd9d;
+
+
+}
+
+.portifolio .col-md-12,
+.portifolio .col-md-6,
+.portifolio .col-md-4,
+.portifolio .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.portifolio .gallary {
+    margin-top: 50px;
+    overflow: hidden
+}
+
+.portifolio .box
+{
+   
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+
+}
+
+.portifolio .box img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.portifolio .gallary  .box .p-overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.9);
+    color: #fff;
+    line-height: 390px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: none; 
+    animation: overlay 0.65s ;
+}
+
+.portifolio .gallary .box:hover .p-overlay 
+{
+    display: block   
+}
+
+
+.portifolio .gallary .box .p-overlay span 
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px
+}
+
+
+.portifolio .gallary .box .p-overlay a
+{
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 15px;
+} 
+
+.portifolio .shuffle 
+{
+    cursor: pointer
+
+}
+
+.portifolio .shuffle  li 
+{
+    margin-bottom: 10px
+
+}
+
+.portifolio .gallary .mix 
+{
+    display: none
+}
+/* end portifolio section */
+
+
+/* start footer section */
+footer
+{
+    background-color: #232323;
+    padding: 30px 0;
+
+}
+
+footer h3 {
+    color: #fff;
+    margin-bottom: 40px
+}
+
+footer  p {
+    color: #888;
+    margin-bottom: 30px
+
+}
+
+footer i 
+{
+    display: inline-block;
+    border: 1px solid #888;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 40px
+}
+
+
+footer i:hover  
+{
+    color: #fff;
+}
+footer  .tags span 
+{
+    color: #888;
+    display: inline-block;
+    border: 1px solid #888;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px
+}
+
+footer .recent .box
+{
+    overflow: hidden;
+}
+
+footer .recent .box img 
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px
+    
+}
+footer .recent .box h4 
+{
+    color: #fff;
+    padding-top: 20px
+}
+
+footer .recent .box span
+{
+    color: #888
+}
+
+
+footer ul li 
+{
+    color: #eee;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #888;
+    font-size: 16px;
+}
+/* end footer section */
+
+
+
+
+
+/* start my framwork */
+.clearfix 
+{
+clear:both
+}
+
+.special-heading
+{
+    position: relative
+}
+
+.special-heading::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top:40px;
+    left: 0;
+    width: 40px;
+    border-bottom: 2px solid #333
+
+}
+
+.separator 
+{
+display: block;
+border: 1px solid #eee;
+}
+
+#scroll-top{
+    
+
+    width: 40px;
+    height: 33px;
+    color: #bbb;
+    background-color: #272727;
+    text-align: center;
+    position:fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+}
+
+#scroll-top:hover{
+    
+    background-color: #444
+}
+
+/* end my framwork */
+
+
+
+
+
+/*Start Header Section*/
+
+.header-sec {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-sec .navbar {
+    border-color: transparent;
+    border-radius: 0;
+    z-index: 99;
+    background: none;
+}
+
+
+
+/*End Header Section*/

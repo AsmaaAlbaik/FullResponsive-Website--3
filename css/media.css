@@ -1,0 +1,94 @@
+/* Start media Query */
+
+
+
+/*this style from 0 screen to mobile screen*/ 
+@media (max-width:768px){
+    
+.navbar-default .navbar-nav > li > a 
+{
+    padding-top: 10px;
+    padding-bottom: 10px
+        
+} 
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 60px;
+}
+.header-sec h2{
+        font-size: 30px;
+        left: 20%;
+
+}
+.testimonials p
+{
+    margin-top: 0;
+}
+.portifolio .shuffle   
+{
+    text-align: center;
+    margin-bottom: 0;
+}
+.portifolio h2 ,
+.team h2,
+.team p,
+.services h2,
+footer  h3,
+footer  p,
+footer  i
+{
+    text-align: center
+}
+
+.testimonials h2 
+{
+    padding-bottom: 10px
+
+}
+.testimonials q
+{
+    font-size: 17px
+}
+    
+.special-heading:after
+{
+    left: 40;
+}
+
+.team p 
+{
+    padding-bottom: 10px
+}
+
+footer .links
+{
+        margin-left: 104px;
+}
+footer .box 
+{
+       margin-left: 50px;
+}    
+
+footer  .tags
+{
+    margin-left: 20px;
+}
+
+footer ul 
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+}
+
+/*from small to media screen*/
+@media (min-width:768px) and (max-width:991px){
+   
+}
+
+/* End media Query */
